@@ -1,0 +1,11 @@
+
+------------------------------------
+	Koder för inläsning av nivåer	
+------------------------------------
+
+# = hård vägg (sidovägg)
++ = vägg (inuti nivå, kanske förstörbar)
+. = tomt golv
+x = fiendeSpawn
+o = playerSpawn
+u = powerupSpawn

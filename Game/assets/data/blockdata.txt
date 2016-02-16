@@ -1,0 +1,77 @@
+//pathways always based on main.cc
+//goes by:
+//blockName (string), blockType (char), texture (SDL_Texture*),
+//width (int), height (int), hitPoints (int), passable (bool)
+
+//struct BlockData {
+//	std::string blockName;
+//	char blockType;
+//	SDL_Texture* texture;
+//	int width;
+//	int height;
+//  int hitPoints;
+//	bool intersectable;
+//	std::string charName;
+//};
+
+Floor
+.
+assets/images/emptyblock2.png
+30
+30
+99999
+false
+None
+END
+
+Hard_wall
+#
+assets/images/hard_wall.png
+30
+30
+99999
+true
+None
+END
+
+Destructable wall
++
+assets/images/destructable_wall.png
+30
+30
+4
+true
+None
+END
+
+PlayerSpawn
+o
+assets/images/playerspawn.png
+30
+30
+15
+false
+//Player1
+Player
+END
+
+EnemySpawn
+x
+assets/images/enemyspawn.png
+30
+30
+40
+false
+//Enemy1
+Enemy2
+END
+
+PowerupSpawn
+u
+assets/images/powerupspawn.png
+30
+30
+40
+false
+none
+END

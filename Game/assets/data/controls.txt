@@ -1,0 +1,39 @@
+
+//controlls for player controlled characters
+//goes as follows:
+//Charname
+//UP
+//DOWN
+//LEFT
+//RIGHT
+
+//codes can be found at
+//https://wiki.libsdl.org/SDL_Scancode
+
+//struct ControlData {
+//	std::string charName;
+//	std::string up;
+//	std::string down;
+//	std::string left;
+//	std::string right;
+//	std::string shoot;
+//	std::string special;
+//};
+
+Player1
+W
+S
+A
+D
+Space
+E
+END
+
+Player2
+Up
+Down
+Left
+Right
+.
+,
+END

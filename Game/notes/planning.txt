@@ -1,0 +1,82 @@
+
+----ARV----
+
+Class Objects {
+	texture
+	pos(x,y)
+	width
+	height
+
+	getters
+
+	private:
+		(data)
+}
+
+Class MovingObjects : public Objects {
+	
+	float speed; //private behöver getter??
+	/*har 2 konstruktorer
+	- en där man kan sätta speed
+	- en där speed får ett defaultvärde
+	*/
+}
+
+Class PhysicalObjects : public MovingObjects {
+	
+	//hanterar collisioner mellan det här och andra PhysicalObjects
+	bool collisionhandler() 
+
+}
+
+----KARAKTÄRER----
+
+class HERO : public PhysicalObjects {
+	
+	bool godmode; (for testing hue hue hue)
+	bool isAlive;
+	int hp;
+	movementhandler();
+	Soundplayer s;
+	Projectilhandler p;
+	projectilTexture pt; //kan ligga i playerspreadsheet för att spara plats
+
+	fromFile() //läser spelardata från fil 
+}
+
+class ENEMY : public PhysicalObjects {
+	
+	bool isAlive;
+	int hp;
+	movementAlGore() //Al Gore rör våra fiender :⁾
+	Projectilhandler p;
+}
+
+----BLOCKTYPER----
+tomt block (golv)
+väggblock
+spawns (spela/fiende-spawn)
+
+----SPAWNS----
+
+Class PowerSpawn : public Objects {
+	hanterar spawns av powerups
+	kan INTE spawna på väggar
+}
+
+class
+
+
+----BANA----
+_______________
+|3|0|0|1|1|3|0|
+|0|0|0|0|0|0|0|
+|0|0|0|2|3|0|0|
+|0|0|0|0|0|0|0|
+|0|0|0|0|0|0|0|
+|0|0|0|0|0|0|0|
+_______________
+
+- bana byger på koder (antingen binärt eller från textfil)
+
+

@@ -1,0 +1,20 @@
+Folder for all game-files and other code
+
+scancodes för användning av SDL_GetKeyboardState: 
+https://wiki.libsdl.org/SDL_Scancode
+
+--------------------------------------------------
+				////CONTROLS\\\\
+--------------------------------------------------
+Player1:				|	Player2:
+Up: 		W			|	Up:			Up
+Down:		S			|	Down:		Down
+Left:		A			|	Left:		Left
+Right:		D			|	Right:		Right
+Shoot:		<Space>		|	Shoot:		.
+Special:	E			|	Special:	,
+
+
+
+
+
